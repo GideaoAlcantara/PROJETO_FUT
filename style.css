@@ -102,11 +102,43 @@ main{
     border-bottom-right-radius: 10px;
 }
 
-
-main>#umasecao>#v1{
-     background-color: aliceblue;
-     max-width: 600px;
+.coitaneimagem{
+  column-count: 2;
 }
+main>.coitaneimagem>.image>#p1{
+    margin-bottom: -13px;
+}
+
+.image>img{
+    max-width: 100%;
+    border: solid 5px black;
+    padding: 1px;
+}
+
+section{
+    background-color: aliceblue;
+    padding: 10px;
+}
+section>article{
+    border: solid 10px blue;
+   
+}
+
+section>article>a>img{
+  max-width: 50%;
+}
+
+section>article{
+   column-count: 2;
+
+
+  }
+
+ 
+
+  section>article>a>.caixa>img{
+    max-width: 120%;
+   }
 
 
 
@@ -114,7 +146,6 @@ main>#umasecao>#v1{
 footer{
     background-color: black;
     color: aliceblue;
-    font-size: 16px;
 }
 
 
