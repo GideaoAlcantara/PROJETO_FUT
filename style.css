@@ -102,43 +102,25 @@ main{
     border-bottom-right-radius: 10px;
 }
 
-.coitaneimagem{
-  column-count: 2;
-}
-main>.coitaneimagem>.image>#p1{
-    margin-bottom: -13px;
-}
-
-.image>img{
-    max-width: 100%;
-    border: solid 5px black;
-    padding: 1px;
-}
-
 section{
-    background-color: aliceblue;
-    padding: 10px;
-}
-section>article{
-    border: solid 10px blue;
-   
+    margin: auto;
+    background-color: aqua;
+    padding: 10px 10px 10px 10px ;
+    max-width: 100%;
 }
 
-section>article>a>img{
-  max-width: 50%;
+
+.pop{
+    border: 10px solid black;
+    max-width: 450px;
+    min-width: 300px;
+    display: inline-block;
+    margin: auto;
 }
 
-section>article{
-   column-count: 2;
-
-
-  }
-
- 
-
-  section>article>a>.caixa>img{
-    max-width: 120%;
-   }
+.pop>a>img{
+    width: 100%;
+}
 
 
 
