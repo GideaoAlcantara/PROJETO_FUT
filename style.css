@@ -84,18 +84,65 @@ header>ol>li>h1{
     color: rgb(39, 104, 161);
 }
 
+section{
+ background-color: aliceblue;
+ padding: 10px;
+ 
+ 
+}
+
+div#caixared{
+    background-color: red;
+    padding: 10px;
+    max-width: 820px;
+    margin: auto;
+}
+
+div.caixablue{
+    height: 400px;
+    width: 400px;
+    background-color: #0420fc;
+    border: 1px solid black;
+    outline: auto;
+    display: inline-block;
+    margin: auto;
+}
+
+div.caixablue2{
+    height: 805px;
+    width: 400px;
+    border: 1px solid black;
+    outline: auto;
+    display: inline-block;
+    margin: auto;
+    background-image: url('imgprincipal/vertical23.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.preta{
+    height: 400px;
+    width: 400px;
+    background-color: #10121d;
+    border: 1px solid black;
+    outline: auto;
+    display: inline-block;
+    margin: auto;
+}
+
 
 
 main{
     background-color: rgb(198, 168, 168);
-    max-width: 1000px;
     margin: auto;
     padding: 30px 10px 10px 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.386);
     margin-bottom: 20px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+  
 }
+
 
 
 
